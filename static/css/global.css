@@ -105,6 +105,30 @@
   font: 300 1rem/1.25 "Figtree";
 }
 
+.grad1 {
+  background-image: linear-gradient(var(--c1), var(--c3));
+}
+
+.grad2 {
+  background-image: linear-gradient(var(--p2), var(--p3));
+}
+
+.grad3 {
+  background-image: linear-gradient(var(--s1), var(--s2));
+}
+
+.grad4 {
+  background-image: linear-gradient(var(--c7), var(--c8));
+}
+
+.shadow1 {
+  box-shadow: 0 4px 6px var(--c3);
+}
+
+.shadow2 {
+  box-shadow: 0 6px 10px var(--c3);
+}
+
 * {
   margin: 0;
   padding: 0;

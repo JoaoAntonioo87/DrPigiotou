@@ -69,11 +69,11 @@
 }
 
 .font-L {
-  font: 500 2rem "Figtree";
+  font: 500 2rem/1 "Figtree";
 }
 
 .font-XM {
-  font: 500 1.75rem "Figtree";
+  font: 500 1.75rem/1 "Figtree";
 }
 
 .font-M1 {
@@ -90,7 +90,7 @@
 }
 
 .font-M4 {
-  font: 400 1.5rem "Figtree";
+  font: 400 1.5rem/1 "Figtree";
 }
 
 .font-S1 {
@@ -140,4 +140,15 @@ ul li {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 80;
+  }
 }

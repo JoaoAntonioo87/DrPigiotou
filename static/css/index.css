@@ -16,26 +16,32 @@
 
 .header-menu {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 3rem;
-}
 
-.header-menu a {
-  color: var(--c7);
-  position: relative;
-}
+  a {
+    color: var(--c7);
+    position: relative;
+  }
 
-.header-menu li + li a::before {
-  content: "";
-  position: absolute;
-  background-color: var(--c4);
-  width: 8px;
-  height: 2px;
-  left: -28px;
-  top: 13px;
-  border-radius: 8px;
+  li + li a::before {
+    content: "";
+    position: absolute;
+    background-color: var(--c4);
+    width: 8px;
+    height: 2px;
+    left: -28px;
+    top: 13px;
+    border-radius: 8px;
+  }
 }
 
 .header-contato {
   color: var(--p3);
+}
+
+@media (max-width: 1200px) {
+  .header-menu {
+    display: none;
+  }
 }

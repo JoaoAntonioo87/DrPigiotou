@@ -45,3 +45,32 @@
     display: none;
   }
 }
+
+.home-introducao {
+  position: relative;
+  img {
+    max-width: 100%;
+  }
+}
+
+.home-introducao-conteudo {
+  position: absolute;
+  bottom: 40px;
+  display: grid;
+  grid-template-columns: 580px;
+  justify-items: start;
+  h1 {
+    color: var(--c1);
+    margin-bottom: 20px;
+  }
+  p {
+    color: var(--c3);
+    max-width: 40ch;
+    margin-bottom: 40px;
+  }
+  a {
+    color: var(--p3);
+    padding: 15px 30px;
+    border-radius: 8px;
+  }
+}

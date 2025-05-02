@@ -152,3 +152,18 @@ a {
     max-width: 80%;
   }
 }
+
+@media (max-width: 800px) {
+  .font-XXL {
+    font: 600 2.75rem/1.25 "Figtree";
+  }
+  .font-M3 {
+    font: 500 1.25rem/1.17 "Figtree";
+  }
+}
+
+@media (max-width: 500px) {
+  .font-XXL {
+    font: 600 2.25rem/1.25 "Figtree";
+  }
+}

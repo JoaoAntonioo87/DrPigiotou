@@ -71,6 +71,14 @@
     color: var(--p3);
     padding: 15px 30px;
     border-radius: 8px;
+    background: linear-gradient(var(--c1), var(--c3));
+    transition: all 0.4s;
+  }
+  a:hover {
+    transition: all 0.4s;
+    background: linear-gradient(var(--p2), var(--p3));
+    color: var(--c1);
+    letter-spacing: 2px;
   }
 }
 

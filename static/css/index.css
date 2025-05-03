@@ -71,6 +71,14 @@
     color: var(--p3);
     padding: 15px 30px;
     border-radius: 8px;
+    background: var(--grad1);
+    transition: all 0.4s;
+  }
+  a:hover {
+    transition: all 0.4s;
+    background: var(--grad2);
+    color: var(--c1);
+    letter-spacing: 2px;
   }
 }
 

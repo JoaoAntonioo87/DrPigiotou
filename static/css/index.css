@@ -83,6 +83,9 @@
 }
 
 @media (max-width: 1200px) {
+  .body {
+    background-color: var(--white);
+  }
   .home-introducao {
     position: inherit;
     img {
@@ -108,5 +111,42 @@
     a {
       box-shadow: 0 4px 6px var(--c3);
     }
+    a:hover {
+      box-shadow: 0 6px 10px var(--c3);
+    }
+  }
+}
+
+.home-sobre {
+  background-color: var(--white);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  padding: 40px;
+
+  img {
+    max-width: 440px;
+  }
+}
+.home-sobre-conteudo {
+  h2 {
+    margin-bottom: 24px;
+  }
+  p {
+    margin-bottom: 40px;
+  }
+  a {
+    color: var(--c1);
+    padding: 15px 30px;
+    border-radius: 8px;
+    transition: all 0.4s;
+    background: var(--grad2);
+  }
+  a:hover {
+    letter-spacing: 2px;
+    transition: all 0.4s;
+    background: var(--grad1);
+    color: var(--p3);
+    box-shadow: 0 6px 10px var(--c3);
   }
 }

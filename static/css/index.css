@@ -123,7 +123,7 @@
   grid-template-columns: 1fr 1fr;
   margin-top: 80px;
   padding: 40px;
-
+  border-radius: 8px;
   img {
     max-width: 440px;
   }

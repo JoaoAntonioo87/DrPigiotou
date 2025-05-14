@@ -134,6 +134,7 @@
     margin-bottom: 24px;
     color: var(--p2);
     position: relative;
+    display: inline-block;
   }
   h2::after {
     content: "";
@@ -215,8 +216,7 @@
       }
       h2::after {
         background-color: var(--s3);
-        width: 33%;
-        left: 33%;
+        left: 6%;
       }
       a {
         background: var(--grad3);

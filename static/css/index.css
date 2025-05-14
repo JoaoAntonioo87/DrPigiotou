@@ -134,6 +134,7 @@
     margin-bottom: 24px;
     color: var(--p2);
     position: relative;
+    display: inline-block;
   }
   h2::after {
     content: "";
@@ -198,7 +199,6 @@
   }
 }
 
-
 @media (max-width: 1200px) {
   .home-sobre {
     background-color: var(--c1);
@@ -215,8 +215,7 @@
       }
       h2::after {
         background-color: var(--s3);
-        width: 33%;
-        left: 33%;
+        left: 6%;
       }
       a {
         background: var(--grad3);

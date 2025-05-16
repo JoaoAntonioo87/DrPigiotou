@@ -190,12 +190,25 @@
   }
 
   .home-servicos-conteudo {
+    margin-top: 64px;
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
     gap: 60px 40px;
+    span {
+      color: var(--c7);
+    }
     img {
+      margin-top: 20px;
       max-width: 100%;
     }
+  }
+  .btn-saiba-mais {
+    background: var(--grad3);
+    color: var(--c8);
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 8px;
+    margin-top: 40px;
   }
 }
 

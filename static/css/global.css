@@ -164,6 +164,9 @@ a {
   .font-XL {
     font: 600 2.25rem/1.2 "Figtree";
   }
+  .font-M1 {
+    font: 500 1.25rem/1.33 "Figtree";
+  }
   .font-M3 {
     font: 500 1.25rem/1.17 "Figtree";
   }

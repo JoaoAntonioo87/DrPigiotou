@@ -98,6 +98,7 @@
     justify-content: center;
     justify-items: center;
     grid-template-columns: auto;
+    text-align: center;
     h1 {
       color: var(--p2);
       position: relative;
@@ -188,37 +189,39 @@
     left: 6%;
     bottom: -2px;
   }
+  img {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+}
+.home-servicos-conteudo {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 60px 40px;
+  justify-content: center;
 
-  .home-servicos-conteudo {
-    margin-top: 64px;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    gap: 60px 40px;
-    span {
-      color: var(--c7);
-    }
-    img {
-      margin-top: 20px;
-      max-width: 100%;
-    }
+  span {
+    color: var(--c7);
   }
-  .btn-saiba-mais {
-    background: var(--grad3);
-    color: var(--c8);
-    display: inline-block;
-    padding: 20px 40px;
-    border-radius: 8px;
-    margin-top: 40px;
-    transition: all 0.4s;
-  }
+}
 
-  .btn-saiba-mais:hover {
-    letter-spacing: 1px;
-    transition: all 0.4s;
-    background: var(--grad2);
-    color: var(--c1);
-    box-shadow: 0 6px 10px var(--c3);
-  }
+.btn-saiba-mais {
+  background: var(--grad3);
+  color: var(--c8);
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 8px;
+  margin-top: 40px;
+  transition: all 0.4s;
+}
+
+.btn-saiba-mais:hover {
+  letter-spacing: 1px;
+  transition: all 0.4s;
+  background: var(--grad2);
+  color: var(--c1);
+  box-shadow: 0 6px 10px var(--c3);
 }
 
 @media (max-width: 1200px) {
@@ -244,18 +247,35 @@
       }
     }
   }
+  .home-servicos {
+    background-color: var(--c1);
+  }
+  .home-servicos-conteudo {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
 }
 
 @media (max-width: 800px) {
-  .home-sobre {
+  .home-sobre,
+  .home-servicos {
     max-width: 100%;
     box-shadow: none;
     margin-top: 64px;
     border-radius: 0;
-    .home-sobre-conteudo {
-      h2::after {
-        width: 0;
-      }
+
+    h2::after {
+      width: 0;
     }
+  }
+  .home-servicos-conteudo {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    grid-template-rows: repeat(autofill, 200px);
+    align-items: end;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-servicos-conteudo {
+    grid-template-columns: 300px;
   }
 }

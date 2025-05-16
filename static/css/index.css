@@ -78,7 +78,7 @@
     transition: all 0.4s;
     background: var(--grad2);
     color: var(--c1);
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 }
 
@@ -157,7 +157,7 @@
     background: var(--grad2);
   }
   a:hover {
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transition: all 0.4s;
     background: var(--grad1);
     color: var(--p3);
@@ -209,6 +209,15 @@
     padding: 20px 40px;
     border-radius: 8px;
     margin-top: 40px;
+    transition: all 0.4s;
+  }
+
+  .btn-saiba-mais:hover {
+    letter-spacing: 1px;
+    transition: all 0.4s;
+    background: var(--grad2);
+    color: var(--c1);
+    box-shadow: 0 6px 10px var(--c3);
   }
 }
 

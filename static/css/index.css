@@ -386,3 +386,125 @@
     max-width: none;
   }
 }
+
+.form-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-contato-text {
+  background-color: var(--white);
+  border-radius: 8px 0 0 8px;
+  h2 {
+    color: var(--black);
+    margin: 64px 80px;
+    position: relative;
+    display: inline-block;
+  }
+
+  h2::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 88%;
+    bottom: -2px;
+    left: 0;
+    border-radius: 50px;
+    background-color: var(--black);
+  }
+}
+
+.form-contato-item {
+  position: relative;
+  margin-left: 108px;
+  margin-bottom: 42px;
+  display: grid;
+  gap: 8px;
+  h3 {
+    color: var(--c8);
+  }
+
+  span {
+    color: var(--c7);
+    display: block;
+  }
+}
+
+.form-contato-item::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 120px;
+  background-color: var(--c2);
+  bottom: -8px;
+}
+
+.form-contato-item:last-child {
+  margin-bottom: 102px;
+}
+
+.form-contato-form {
+  background-color: var(--c8);
+  border-radius: 0 8px 8px 0;
+  padding: 80px 0;
+  display: grid;
+
+  label {
+    color: var(--white);
+    display: block;
+    margin: 40px 64px 16px 64px;
+  }
+
+  input,
+  textarea {
+    border: none;
+    padding: 16px;
+    margin: 0 64px;
+    border-radius: 8px;
+    color: var(--black);
+    resize: none;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--c3);
+  }
+
+  button {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px 30px;
+    justify-self: center;
+    background: var(--grad2);
+    border: none;
+    border-radius: 8px;
+    color: var(--c1);
+    transition: all 0.4s;
+  }
+
+  button:hover {
+    transition: all 0.4s;
+    background: var(--grad3);
+    color: var(--c8);
+  }
+}
+
+.home-contato > h2 {
+  color: var(--s3);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.home-contato > img {
+  margin-top: 40px;
+  box-shadow: 0 4px 6px var(--c3);
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.home-contato > span {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}

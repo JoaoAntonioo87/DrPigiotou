@@ -597,7 +597,8 @@
   img {
     position: absolute;
 
-    left: -120px;
+    left: -250px;
+    z-index: -1;
     top: 15px;
     max-height: calc(100% - 15px);
   }
@@ -606,6 +607,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
+    z-index: 1;
   }
 
   h2 {

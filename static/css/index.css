@@ -55,7 +55,7 @@
 
 .home-introducao-conteudo {
   position: absolute;
-  bottom: 40px;
+  bottom: 80px;
   display: grid;
   grid-template-columns: 580px;
   justify-items: start;

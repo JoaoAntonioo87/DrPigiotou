@@ -2,14 +2,6 @@
   background-color: var(--white);
   position: relative;
 
-  img {
-    position: absolute;
-    left: -250px;
-    z-index: -1;
-    top: 15px;
-    max-height: calc(100% - 15px);
-  }
-
   .footer-conteudo {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -83,11 +75,6 @@
 
 @media (max-width: 1024px) {
   .footer {
-    img {
-      left: -240px;
-      max-width: 100%;
-    }
-
     .footer-conteudo {
       max-width: 100%;
       margin: 0 64px;
@@ -107,10 +94,6 @@
 
 @media (max-width: 800px) {
   .footer {
-    img {
-      min-width: 350px;
-    }
-
     .footer-listas {
       grid-template-columns: repeat(auto-fit, 175px);
       gap: 0;

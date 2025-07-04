@@ -1,5 +1,6 @@
 @import "./global.css";
-@import "./index.css";
+@import "./header.css";
 @import "./detalhe-dente.css";
 @import "./form.css";
 @import "./footer.css";
+@import "./index.css";

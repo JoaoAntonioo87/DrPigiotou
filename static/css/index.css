@@ -441,6 +441,34 @@
   }
 }
 
+.form-contato-item::before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  top: 4px;
+  left: -28px;
+}
+
+.form-contato-item.one::before {
+  content: url("../img/telefone.svg");
+}
+.form-contato-item.two::before {
+  content: url("../img/globo.svg");
+}
+.form-contato-item.three::before {
+  content: url("../img/relogio.svg");
+}
+.form-contato-item.four::before {
+  content: url("../img/mapa.svg");
+}
+
+@media (max-width: 800px) {
+  .form-contato-item::before {
+    display: none;
+  }
+}
+
 .form-contato-item::after {
   content: "";
   position: absolute;

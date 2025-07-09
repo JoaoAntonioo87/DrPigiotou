@@ -2,12 +2,14 @@
   position: absolute;
   z-index: -1;
   left: -30vw;
+  opacity: 75%;
 }
 
 .detalhe-direita {
   position: absolute;
   z-index: -1;
   right: -30vw;
+  opacity: 75%;
 }
 
 .home-servicos .detalhe-direita {

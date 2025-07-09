@@ -125,6 +125,7 @@
     transition: all 0.4s;
     background: var(--grad3);
     color: var(--c8);
+    letter-spacing: 1px;
   }
 }
 

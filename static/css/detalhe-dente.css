@@ -10,6 +10,10 @@
   right: -30vw;
 }
 
+.home-servicos .detalhe-direita {
+  top: 33%;
+}
+
 .home-depoimentos-conteudo .detalhe-esquerda {
   z-index: 1;
 }

@@ -46,6 +46,24 @@
     li:last-child {
       margin-bottom: 120px;
     }
+
+    .footer-redes-sociais li > a {
+      position: relative;
+      padding-left: 24px;
+    }
+
+    .footer-redes-sociais li > a::before {
+      position: absolute;
+      content: "";
+      top: 2px;
+      left: 0;
+    }
+    .footer-redes-sociais #instagram::before {
+      content: url(../img/footer-instagram.svg);
+    }
+    .footer-redes-sociais #facebook::before {
+      content: url(../img/footer-facebook.svg);
+    }
   }
 
   span {

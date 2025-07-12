@@ -11,19 +11,19 @@
 }
 
 .btn[data-btn="1"] {
-  color: var(--c8);
-  background: var(--grad3);
+  color: var(--p3);
+  background: var(--grad1);
 }
-
 .btn[data-btn="1"]:hover {
   color: var(--c1);
   background: var(--grad2);
 }
 
 .btn[data-btn="2"] {
-  color: var(--p3);
-  background: var(--grad1);
+  color: var(--c8);
+  background: var(--grad3);
 }
+
 .btn[data-btn="2"]:hover {
   color: var(--c1);
   background: var(--grad2);

@@ -1,0 +1,9 @@
+.sobre {
+  .titulo::before {
+    content: url(../img/dente-preenchido-p2.svg);
+  }
+
+  .titulo::after {
+    background-color: var(--p2);
+  }
+}

@@ -112,20 +112,8 @@
   button {
     text-align: center;
     margin-top: 40px;
-    padding: 15px 30px;
     justify-self: center;
-    background: var(--grad2);
     border: none;
-    border-radius: 8px;
-    color: var(--c1);
-    transition: all 0.4s;
-  }
-
-  button:hover {
-    transition: all 0.4s;
-    background: var(--grad3);
-    color: var(--c8);
-    letter-spacing: 1px;
   }
 }
 

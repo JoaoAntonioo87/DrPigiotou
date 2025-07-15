@@ -4,6 +4,12 @@
   display: inline;
 }
 
+.titulo::before {
+  position: absolute;
+  content: url(../img/dente-preenchido-p2.svg);
+  right: -14px;
+}
+
 .titulo::after {
   position: absolute;
   content: "";

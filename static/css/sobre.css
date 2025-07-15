@@ -1,22 +1,9 @@
-.titulo {
-  position: relative;
-  color: var(--p2);
-  display: inline;
-}
+.sobre {
+  .titulo::before {
+    content: url(../img/dente-preenchido-p2.svg);
+  }
 
-.titulo::before {
-  position: absolute;
-  content: url(../img/dente-preenchido-p2.svg);
-  right: -14px;
-}
-
-.titulo::after {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 88%;
-  bottom: -2px;
-  left: 0;
-  background-color: var(--p2);
-  border-radius: 8px;
+  .titulo::after {
+    background-color: var(--p2);
+  }
 }

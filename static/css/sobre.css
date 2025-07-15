@@ -1,0 +1,16 @@
+.titulo {
+  position: relative;
+  color: var(--p2);
+  display: inline;
+}
+
+.titulo::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 88%;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--p2);
+  border-radius: 8px;
+}

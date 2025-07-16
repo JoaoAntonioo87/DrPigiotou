@@ -1,6 +1,5 @@
 .sobre {
   padding-top: 80px;
-
   .titulo::before {
     content: url(../img/dente-preenchido-p2.svg);
   }

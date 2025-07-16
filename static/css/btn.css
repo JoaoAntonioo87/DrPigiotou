@@ -57,3 +57,13 @@
   background: var(--grad3);
   color: var(--c8);
 }
+
+.btn[data-btn="6"] {
+  color: var(--c8);
+  background: var(--grad1);
+}
+.btn[data-btn="6"]:hover {
+  color: var(--c1);
+  background: var(--grad2);
+  box-shadow: 0 6px 10px var(--c3);
+}

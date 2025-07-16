@@ -20,6 +20,12 @@
   z-index: 1;
 }
 
+.sobre {
+  .detalhe-direita {
+    right: -15vw;
+  }
+}
+
 .footer .detalhe-esquerda {
   left: -10vw;
   top: 15px;
@@ -45,13 +51,6 @@
     left: -200px;
     max-width: 100%;
   }
-
-  /* .detalhe-direita {
-    right: -30vw;
-  }
-  .detalhe-esquerda {
-    left: -30vw;
-  } */
 }
 
 @media (max-width: 800px) {

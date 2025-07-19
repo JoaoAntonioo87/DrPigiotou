@@ -23,6 +23,7 @@
 .sobre {
   .detalhe-direita {
     right: -15vw;
+    z-index: 1;
   }
 }
 

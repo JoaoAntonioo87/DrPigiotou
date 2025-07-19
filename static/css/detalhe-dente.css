@@ -1,0 +1,61 @@
+.detalhe-esquerda {
+  position: absolute;
+  z-index: -1;
+  left: -30vw;
+  opacity: 75%;
+}
+
+.detalhe-direita {
+  position: absolute;
+  z-index: -1;
+  right: -30vw;
+  opacity: 75%;
+}
+
+.home-servicos .detalhe-direita {
+  top: 33%;
+}
+
+.home-depoimentos-conteudo .detalhe-esquerda {
+  z-index: 1;
+}
+
+.sobre {
+  .detalhe-direita {
+    right: -15vw;
+    z-index: 1;
+  }
+}
+
+.footer .detalhe-esquerda {
+  left: -10vw;
+  top: 15px;
+  max-height: calc(100% - 15px);
+  max-width: 100%;
+}
+
+@media (max-width: 1500px) {
+  .detalhe-esquerda {
+    left: -18vw;
+    max-width: 20%;
+  }
+
+  .detalhe-direita {
+    right: -18vw;
+    z-index: 2;
+    max-width: 20%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer .detalhe-esquerda {
+    left: -200px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer .detalhe-esquerda {
+    min-width: 350px;
+  }
+}

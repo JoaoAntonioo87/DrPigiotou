@@ -1,0 +1,129 @@
+.sobre {
+  position: relative;
+  padding-top: 80px;
+
+  .titulo::before {
+    content: url(../img/dente-preenchido-p2.svg);
+  }
+
+  .titulo::after {
+    background-color: var(--p2);
+  }
+}
+.sobre-introducao {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sobre-introducao img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.sobre-introducao-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+
+  h2 {
+    position: relative;
+    color: var(--s1);
+  }
+
+  h2::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 305px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--s2);
+    border-radius: 8px;
+  }
+  p:first-of-type {
+    margin-top: 32px;
+  }
+  p:last-of-type {
+    margin-top: 20px;
+  }
+  .btn {
+    margin-top: 60px;
+    align-self: flex-start;
+  }
+}
+
+.sobre-linha-do-tempo {
+  margin: 120px 0;
+
+  background-color: var(--c6);
+
+  .linha-do-tempo-titulo {
+    padding: 60px;
+  }
+
+  .titulo {
+    color: var(--c1);
+  }
+  .titulo::before {
+    content: url(../img/dente-preenchido-c1.svg);
+  }
+  .titulo::after {
+    background: var(--c2);
+  }
+}
+
+.linha-do-tempo-conteudo {
+  margin-top: 40px;
+  padding-bottom: 60px;
+  display: grid;
+  gap: 40px;
+  z-index: 1;
+
+  .linha-do-tempo-item {
+    position: relative;
+    color: var(--white);
+    align-items: center;
+    p {
+      margin-top: 8px;
+      color: var(--c1);
+    }
+  }
+
+  .linha-do-tempo-item:first-child::before {
+    position: absolute;
+    content: "";
+    height: calc(100% * 6 + 40px * 7);
+    width: 2px;
+    background-image: url(../img/detalhe-linhaDoTempo.png);
+    top: 20px;
+    z-index: -1;
+  }
+
+  .linha-do-tempo-item:nth-child(odd) {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-items: center;
+    gap: 40px;
+    span {
+      justify-self: end;
+    }
+    div {
+      justify-self: start;
+    }
+  }
+  .linha-do-tempo-item:nth-child(even) {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-items: center;
+    gap: 40px;
+    span {
+      justify-self: start;
+    }
+    div {
+      text-align: end;
+    }
+  }
+}

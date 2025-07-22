@@ -1,15 +1,15 @@
-.titulo {
+.titulo-1 {
   position: relative;
   color: var(--p2);
   display: inline;
 }
 
-.titulo::before {
+.titulo-1::before {
   position: absolute;
   right: -14px;
 }
 
-.titulo::after {
+.titulo-1::after {
   position: absolute;
   content: "";
   height: 2px;
@@ -17,4 +17,21 @@
   bottom: -2px;
   left: 0;
   border-radius: 8px;
+}
+
+.titulo-2 {
+  position: relative;
+  color: var(--p2);
+  display: inline;
+}
+
+.titulo-2::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 88%;
+  bottom: -2px;
+  left: 7%;
+  border-radius: 8px;
+  background-color: var(--p2);
 }

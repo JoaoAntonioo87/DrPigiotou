@@ -64,13 +64,13 @@
     padding: 60px;
   }
 
-  .titulo {
+  .titulo-1 {
     color: var(--c1);
   }
-  .titulo::before {
+  .titulo-1::before {
     content: url(../img/dente-preenchido-c1.svg);
   }
-  .titulo::after {
+  .titulo-1::after {
     background: var(--c2);
   }
 }

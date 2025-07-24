@@ -25,6 +25,10 @@
     right: -15vw;
     z-index: 1;
   }
+  .detalhe-esquerda {
+    left: -15vw;
+    z-index: 1;
+  }
 }
 
 .footer .detalhe-esquerda {

@@ -155,3 +155,65 @@
     }
   }
 }
+
+.sobre-MVV {
+  text-align: center;
+  margin-bottom: 120px;
+
+  .sobre-MVV-conteudo {
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+  }
+
+  .sobre-MVV-item {
+    max-width: 380px;
+    background-color: var(--c7);
+    color: var(--white);
+    border-radius: 8px;
+    transition: all 0.4s;
+
+    h3 {
+      margin: 20px 0 32px;
+    }
+
+    p {
+      position: relative;
+      margin: 0px 35px 20px 45px;
+      text-align: start;
+      width: 300px;
+    }
+
+    p:last-of-type {
+      margin-bottom: 32px;
+    }
+
+    p::before {
+      position: absolute;
+      content: "";
+      width: 6px;
+      height: 2px;
+      left: -10px;
+      top: 10px;
+      background-color: var(--p1);
+    }
+  }
+
+  .sobre-MVV-item:hover {
+    transition: all 0.4s;
+    background-color: var(--c1);
+    box-shadow: 0 6px 10px var(--c3);
+
+    h3 {
+      color: #000;
+    }
+
+    p {
+      color: var(--c8);
+    }
+
+    p::before {
+      background-color: var(--p3);
+    }
+  }
+}

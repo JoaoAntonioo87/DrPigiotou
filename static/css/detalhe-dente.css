@@ -51,10 +51,20 @@
     max-width: 20%;
   }
 
+  .sobre .detalhe-esquerda {
+    left: -12vw;
+    z-index: 1;
+  }
+
   .detalhe-direita {
     right: -18vw;
     z-index: 2;
     max-width: 20%;
+  }
+
+  .sobre .detalhe-direita {
+    right: -13vw;
+    z-index: 1;
   }
 }
 

@@ -2,14 +2,15 @@
   position: relative;
   padding-top: 80px;
 
-  .titulo::before {
+  .titulo-1::before {
     content: url(../img/dente-preenchido-p2.svg);
   }
 
-  .titulo::after {
+  .titulo-1::after {
     background-color: var(--p2);
   }
 }
+
 .sobre-introducao {
   padding-top: 40px;
   display: grid;
@@ -215,5 +216,26 @@
     p::before {
       background-color: var(--p3);
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  .sobre {
+    padding-top: 40px;
+  }
+
+  .sobre-introducao {
+    grid-template-columns: 1fr;
+  }
+  .sobre-introducao img {
+    display: none;
+  }
+  .sobre-introducao-text {
+    margin: 0px;
+    max-width: 75ch;
+  }
+  .sobre-introducao-text h2 {
+    display: none;
+    padding-bottom: 0px;
   }
 }

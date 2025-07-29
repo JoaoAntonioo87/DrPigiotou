@@ -1,15 +1,37 @@
+.detalhe-container {
+  position: relative;
+}
+
 .detalhe-esquerda {
   position: absolute;
   z-index: -1;
-  left: -30vw;
-  opacity: 75%;
+  left: -100px;
+  width: 200px;
 }
 
 .detalhe-direita {
   position: absolute;
   z-index: -1;
-  right: -30vw;
-  opacity: 75%;
+  right: -70px;
+  width: 200px;
+}
+
+#footer01 {
+  top: 40px;
+}
+
+#home01 {
+  top: 200px;
+}
+
+#home02,
+#home03 {
+  top: 560px;
+  z-index: 1;
+}
+
+#home04 {
+  top: 400px;
 }
 
 .home-servicos .detalhe-direita {
@@ -36,13 +58,6 @@
     left: -34vw;
     z-index: 1;
   }
-}
-
-.footer .detalhe-esquerda {
-  left: -10vw;
-  top: 15px;
-  max-height: calc(100% - 15px);
-  max-width: 100%;
 }
 
 @media (max-width: 1500px) {

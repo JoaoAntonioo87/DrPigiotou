@@ -60,38 +60,8 @@
   }
 }
 
-@media (max-width: 1500px) {
-  .detalhe-esquerda {
-    left: -18vw;
-    max-width: 20%;
-  }
-
-  .sobre .detalhe-esquerda {
-    left: -12vw;
-    z-index: 1;
-  }
-
-  .detalhe-direita {
-    right: -18vw;
-    z-index: 2;
-    max-width: 20%;
-  }
-
-  .sobre .detalhe-direita {
-    right: -13vw;
-    z-index: 1;
-  }
-}
-
-@media (max-width: 1024px) {
-  .footer .detalhe-esquerda {
-    left: -200px;
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 800px) {
-  .footer .detalhe-esquerda {
-    min-width: 350px;
+@media (max-width: 1200px) {
+  .detalhe-container {
+    display: none;
   }
 }

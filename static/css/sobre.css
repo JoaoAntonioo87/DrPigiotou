@@ -1,6 +1,6 @@
 .sobre {
   position: relative;
-  padding-top: 80px;
+  margin-top: 80px;
 
   .titulo-1::before {
     content: url(../img/dente-preenchido-p2.svg);
@@ -12,7 +12,8 @@
 }
 
 .sobre-introducao {
-  padding-top: 40px;
+  margin-top: 40px;
+  margin-bottom: 120px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -51,13 +52,13 @@
     margin-top: 20px;
   }
   .btn {
-    margin-top: 60px;
+    margin-top: 64px;
     align-self: flex-start;
   }
 }
 
 .sobre-linha-do-tempo {
-  margin: 120px 0;
+  margin-bottom: 120px;
 
   background-color: var(--c6);
 
@@ -134,12 +135,14 @@
   background-color: var(--c1);
   margin-bottom: 60px;
   padding-bottom: 40px;
+
   h2 {
     padding-top: 40px;
     margin-bottom: 40px;
     display: grid;
     justify-self: center;
   }
+
   .sobre-certificados-conteudo {
     display: grid;
     justify-content: center;
@@ -153,7 +156,7 @@
     }
     p {
       text-align: center;
-      padding-top: 16px;
+      margin-top: 16px;
     }
   }
 }
@@ -165,7 +168,7 @@
   .sobre-MVV-conteudo {
     display: flex;
     gap: 20px;
-    padding-top: 60px;
+    margin-top: 60px;
   }
 
   .sobre-MVV-item {
@@ -222,21 +225,33 @@
 
 @media (max-width: 1200px) {
   .sobre {
-    padding-top: 40px;
+    margin-top: 40px;
   }
 
   .sobre-introducao {
     grid-template-columns: 1fr;
+    margin-top: 40px;
+    margin-bottom: 64px;
   }
+
   .sobre-introducao img {
     display: none;
   }
+
   .sobre-introducao-text {
     margin: 0px;
     max-width: 75ch;
   }
+
   .sobre-introducao-text h2 {
     display: none;
-    padding-bottom: 0px;
+  }
+
+  .sobre-introducao-text p:first-of-type {
+    margin: 0;
+  }
+
+  .sobre-introducao-text .btn {
+    margin-top: 32px;
   }
 }

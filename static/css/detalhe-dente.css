@@ -46,6 +46,10 @@
   z-index: 1;
 }
 
+#sobre01 {
+  top: -100px;
+}
+
 @media (max-width: 1440px) {
   .detalhe-container {
     display: none;

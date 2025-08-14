@@ -213,6 +213,11 @@ a {
   .font-M3 {
     font: 500 1rem/1.17 "Figtree";
   }
+
+  .font-S1 {
+    font: 400 1rem/1.4 "Figtree";
+  }
+
   .font-XS {
     font: 300 0.875rem/1.25 "Figtree";
   }

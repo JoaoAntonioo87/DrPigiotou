@@ -115,6 +115,7 @@
       justify-self: start;
     }
   }
+
   .linha-do-tempo-item:nth-child(even) {
     display: grid;
     grid-template-columns: 1fr auto 1fr;

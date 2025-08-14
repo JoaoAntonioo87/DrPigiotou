@@ -16,7 +16,7 @@
   width: 200px;
 }
 
-#footer01 {
+.footer01 {
   top: 40px;
 }
 
@@ -40,24 +40,6 @@
 
 .home-depoimentos-conteudo .detalhe-esquerda {
   z-index: 1;
-}
-
-.sobre {
-  .detalhe-direita {
-    right: -15vw;
-    z-index: 1;
-  }
-  .detalhe-esquerda {
-    left: -15vw;
-    z-index: 1;
-  }
-}
-
-.sobre-contato {
-  .detalhe-esquerda {
-    left: -34vw;
-    z-index: 1;
-  }
 }
 
 @media (max-width: 1440px) {

@@ -102,6 +102,9 @@
     .footer-listas {
       justify-content: space-between;
       margin-top: 20px;
+      ul li:last-child {
+        margin-bottom: 64px;
+      }
     }
 
     span {
@@ -116,10 +119,6 @@
       grid-template-columns: repeat(auto-fit, 175px);
       gap: 0;
 
-      ul li:last-child {
-        margin-bottom: 32px;
-      }
-
       ul:last-child li:last-child {
         margin-bottom: 64px;
       }
@@ -130,19 +129,24 @@
 @media (max-width: 500px) {
   .footer {
     .footer-listas {
-      position: relative;
       grid-template-columns: 1fr;
+      ul li:last-child {
+        margin-bottom: 32px;
+        li {
+          margin-bottom: 12px;
+        }
+      }
     }
-    .footer-listas ul::after {
+    .footer-listas ul {
+      position: relative;
+    }
+    .footer-listas ul + ul::after {
       content: "";
       position: absolute;
       height: 2px;
+      top: -20px;
       width: 20%;
       background-color: var(--c2);
-    }
-    .footer-listas ul:last-child:after {
-      background-color: aqua;
-      width: 0;
     }
   }
 }

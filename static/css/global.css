@@ -161,29 +161,59 @@ a {
   .container {
     max-width: 80%;
   }
-}
 
-@media (max-width: 800px) {
-  #home .font-XXL {
+  .font-XXL {
     font: 600 2.75rem/1.25 "Figtree";
+  }
+
+  .font-XL {
+    font: 600 2rem/1.2 "Figtree";
   }
 
   .font-M1 {
     font: 500 1.25rem/1.33 "Figtree";
   }
+
   .font-M3 {
     font: 500 1.25rem/1.17 "Figtree";
   }
+
   .font-S1 {
     font: 400 1.15rem/1.4 "Figtree";
   }
 }
 
-@media (max-width: 500px) {
-  #home .font-XXL {
+@media (max-width: 800px) {
+  .font-XXL {
     font: 600 2.25rem/1.25 "Figtree";
   }
+
+  .font-XL {
+    font: 600 1.75rem/1.2 "Figtree";
+  }
+
   .font-L {
     font: 500 1.75rem/1 "Figtree";
+  }
+}
+
+@media (max-width: 500px) {
+  .font-XXL {
+    font: 600 1.75rem/1.25 "Figtree";
+  }
+
+  .font-XL {
+    font: 600 1.5rem/1.2 "Figtree";
+  }
+
+  .font-M2 {
+    font: 600 1.25rem/1.17 "Figtree";
+  }
+
+  .font-M3 {
+    font: 500 1rem/1.17 "Figtree";
+  }
+  .font-XS {
+    font: 300 0.875rem/1.25 "Figtree";
   }
 }

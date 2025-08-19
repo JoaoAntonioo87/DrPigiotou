@@ -170,10 +170,6 @@ a {
     font: 600 2rem/1.2 "Figtree";
   }
 
-  .font-M1 {
-    font: 500 1.25rem/1.33 "Figtree";
-  }
-
   .font-M3 {
     font: 500 1.25rem/1.17 "Figtree";
   }
@@ -192,8 +188,16 @@ a {
     font: 600 1.75rem/1.2 "Figtree";
   }
 
+  .font-M1 {
+    font: 500 1.25rem/1.33 "Figtree";
+  }
+
   .font-L {
     font: 500 1.75rem/1 "Figtree";
+  }
+
+  .font-S2 {
+    font: 300 1rem/1.2 "Figtree";
   }
 }
 

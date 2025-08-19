@@ -22,7 +22,7 @@
 .titulo-2 {
   position: relative;
   color: var(--p2);
-  display: inline;
+  display: inline-block;
 }
 
 .titulo-2::after {

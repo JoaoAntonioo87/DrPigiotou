@@ -1,0 +1,12 @@
+.depoimentos {
+  position: relative;
+  margin-top: 80px;
+
+  .titulo-1::before {
+    content: url(../img/dente-preenchido-p2.svg);
+  }
+
+  .titulo-1::after {
+    background-color: var(--p2);
+  }
+}

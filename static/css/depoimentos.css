@@ -10,3 +10,11 @@
     background-color: var(--p2);
   }
 }
+
+.scroll-fotos img {
+  display: none;
+}
+
+.scroll-fotos img:first-of-type {
+  display: inline;
+}

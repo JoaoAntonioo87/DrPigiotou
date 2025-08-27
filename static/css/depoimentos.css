@@ -11,10 +11,135 @@
   }
 }
 
-.scroll-fotos img {
-  display: none;
+@media (max-width: 1200px) {
 }
 
-.scroll-fotos img:first-of-type {
-  display: inline;
+@media (max-width: 800px) {
+}
+
+.depoimentos-intro {
+  background-color: var(--c1);
+  padding: 40px;
+  border-radius: 8px;
+  margin-top: 64px;
+}
+
+.depoimentos-intro-conteudo {
+  display: flex;
+  gap: 200px;
+
+  img {
+    width: 340px;
+    border-radius: 8px;
+  }
+}
+
+.depoimentos-intro-texto {
+  position: relative;
+  margin-top: 64px;
+
+  h2 {
+    position: relative;
+    color: var(--c7);
+  }
+
+  p {
+    position: relative;
+    max-width: 30rem;
+    margin-top: 20px;
+
+    color: var(--c8);
+  }
+}
+
+.depoimentos-intro-texto h2::before {
+  position: absolute;
+  content: url(../img/aspas.svg);
+  left: -80px;
+  top: -68px;
+}
+
+.depoimentos-intro-texto p::after {
+  position: absolute;
+  content: url(../img/aspas.svg);
+  rotate: 180deg;
+  right: -56px;
+  bottom: -68px;
+}
+
+@media (max-width: 1200px) {
+  .depoimentos {
+    margin-top: 40px;
+  }
+
+  .depoimentos-intro {
+    max-width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .depoimentos-intro-conteudo {
+    gap: 80px;
+  }
+
+  .depoimentos-intro-texto {
+    margin-top: 32px;
+  }
+  .depoimentos-intro-texto h2::before {
+    display: none;
+  }
+
+  .depoimentos-intro-texto p::after {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .depoimentos-intro {
+    margin-top: 40px;
+  }
+
+  .depoimentos-intro-conteudo {
+    gap: 40px;
+
+    img {
+      border-radius: 100%;
+      width: 64px;
+      height: 64px;
+      object-fit: cover;
+      margin-top: 0;
+    }
+  }
+  .depoimentos-intro-texto {
+    margin-top: 0;
+
+    h2 {
+      color: var(--s2);
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .depoimentos {
+    .titulo-1::before {
+      display: none;
+    }
+  }
+  .depoimentos-intro-conteudo {
+    img {
+      display: none;
+    }
+  }
+  .depoimentos-intro-texto {
+    padding-left: 20px;
+  }
+  .depoimentos-intro-texto::before {
+    position: absolute;
+    content: "";
+    background-color: var(--s1);
+    width: 6px;
+    height: 2px;
+    left: 0;
+    top: 10px;
+  }
 }

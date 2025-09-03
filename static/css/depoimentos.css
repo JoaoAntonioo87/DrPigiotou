@@ -11,15 +11,8 @@
   }
 }
 
-@media (max-width: 1200px) {
-}
-
-@media (max-width: 800px) {
-}
-
 .depoimentos-intro {
   background-color: var(--c1);
-  padding: 40px;
   border-radius: 8px;
   margin-top: 64px;
 }
@@ -27,6 +20,7 @@
 .depoimentos-intro-conteudo {
   display: flex;
   gap: 200px;
+  padding: 40px;
 
   img {
     width: 340px;
@@ -85,6 +79,7 @@
   .depoimentos-intro-texto {
     margin-top: 32px;
   }
+
   .depoimentos-intro-texto h2::before {
     display: none;
   }
@@ -218,15 +213,15 @@
 }
 
 @media (max-width: 800px) {
-  .depoimentos-dois-cols {
-    display: none;
-  }
   .depoimentos-cols {
     margin: 32px 0 0 0;
   }
   .depoimento-cols-item {
     border-radius: 0;
     box-shadow: none;
+  }
+  .depoimentos-dois-cols {
+    display: none;
   }
   .depoimentos-tres-cols {
     gap: 8px;

@@ -50,6 +50,10 @@
   top: -100px;
 }
 
+#procedimentos01 {
+  top: 600px;
+}
+
 @media (max-width: 1440px) {
   .detalhe-container {
     display: none;

@@ -11,6 +11,7 @@
 }
 
 .procedimento-item {
+  position: relative;
   display: grid;
   grid-template-columns: 5fr 7fr;
   gap: 20px;
@@ -54,5 +55,52 @@
     height: 2px;
     left: -16px;
     top: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .procedimentos {
+    margin-top: 40px;
+  }
+
+  .procedimento-item {
+    img {
+      max-width: 280px;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .procedimento-item-textos {
+    p::before {
+      top: 9px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .procedimento-item {
+    display: block;
+    img {
+      display: none;
+    }
+  }
+
+  .procedimento-item + .procedimento-item {
+    margin-top: 64px;
+  }
+
+  .procedimento-item + .procedimento-item::after {
+    content: "";
+    position: absolute;
+    width: 88%;
+    height: 2px;
+    top: -32px;
+    background-color: var(--c3);
+  }
+  .procedimento-item-textos {
+    p + h3 {
+      margin-top: 20px;
+    }
   }
 }

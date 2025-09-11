@@ -1,0 +1,15 @@
+.contato {
+  margin-top: 80px;
+}
+
+.contato .titulo-1::after {
+  background-color: var(--p2);
+}
+
+.contato .titulo-1::before {
+  content: url(../img/dente-preenchido-p2.svg);
+}
+
+.contato-contato {
+  margin-top: 40px;
+}

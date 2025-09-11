@@ -54,6 +54,11 @@
   top: 600px;
 }
 
+#procedimentos02 {
+  z-index: 1;
+  top: 240px;
+}
+
 @media (max-width: 1440px) {
   .detalhe-container {
     display: none;

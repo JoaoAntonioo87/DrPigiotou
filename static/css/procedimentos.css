@@ -1,6 +1,5 @@
 .procedimentos {
   margin-top: 80px;
-  margin-bottom: 120px;
 }
 
 .procedimentos .titulo-1::after {
@@ -9,6 +8,10 @@
 
 .procedimentos .titulo-1::before {
   content: url(../img/dente-preenchido-p2.svg);
+}
+
+.procedimentos-intro {
+  margin-bottom: 120px;
 }
 
 .procedimento-item {
@@ -103,5 +106,36 @@
     p + h3 {
       margin-top: 20px;
     }
+  }
+}
+
+.procedimentos-pt2 {
+  background-color: var(--c1);
+}
+
+.procedimentos-pt2 .container {
+  display: flex;
+  gap: 80px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.procedimento-pt2-item {
+  max-width: 340px;
+  display: grid;
+  gap: 40px;
+
+  h2 {
+    text-align: center;
+    color: var(--c8);
+  }
+
+  img {
+    max-width: 340px;
+    border-radius: 8px;
+  }
+
+  p {
+    color: var(--c7);
   }
 }

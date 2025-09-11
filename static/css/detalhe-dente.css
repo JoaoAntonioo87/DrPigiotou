@@ -59,6 +59,10 @@
   top: 240px;
 }
 
+#procedimentos03 {
+  top: 440px;
+}
+
 @media (max-width: 1440px) {
   .detalhe-container {
     display: none;
